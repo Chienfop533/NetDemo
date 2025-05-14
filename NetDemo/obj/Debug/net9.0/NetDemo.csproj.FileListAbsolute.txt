@@ -22,3 +22,17 @@ D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\refint\NetDemo.dll
 D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\NetDemo.pdb
 D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\NetDemo.genruntimeconfig.cache
 D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\ref\NetDemo.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\NetDemo.csproj.AssemblyReference.cache
+D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\NetDemo.sourcelink.json
+D:\DevSource\NetCore\NetDemo\NetDemo\obj\Debug\net9.0\NetDemo.csproj.Up2Date

@@ -1,0 +1,20 @@
+﻿@NetDemo_HostAddress = https://localhost:44342
+
+POST {{NetDemo_HostAddress}}/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
+GET {{NetDemo_HostAddress}}/todoitems
+
+###
+
+@id=1
+GET {{NetDemo_HostAddress}}/todoitems/{{id}}
+
+###
