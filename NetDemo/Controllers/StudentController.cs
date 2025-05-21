@@ -8,10 +8,17 @@ namespace NetDemo.Controller
     [ApiController]
     public class StudentController : ControllerBase
     {
+        private readonly ILogger<StudentController> _logger;
+        public StudentController(ILogger<StudentController> logger)
+        {
+            _logger = logger;
+        }
+
         [HttpGet]
         [Route("all", Name = "GetAllStudents")]
-        public ActionResult<IEnumerable<StudentModel>> GetStudentName()
+        public ActionResult<IEnumerable<StudentModel>> GetStudents()
         {
+            _logger.LogInformation("Get students method started.");
             return Ok(CollegeRepository.Students);
         }
 
