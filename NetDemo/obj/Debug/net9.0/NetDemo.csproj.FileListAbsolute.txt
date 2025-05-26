@@ -1,4 +1,3 @@
-D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\appsettings.Development.json
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\appsettings.json
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\NetDemo.staticwebassets.endpoints.json
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\NetDemo.exe
@@ -163,3 +162,4 @@ D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\Sy
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\DevSource\NetCore\NetDemo\NetDemo\bin\Debug\net9.0\AutoMapper.dll

@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using NetDemo.Configurations;
 using NetDemo.Data;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +13,9 @@ builder.Services.AddDbContext<CollegeDBContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllers();
+
+// Automapper configuration.
+builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 // Configure Swagger/OpenAPI.
 builder.Services.AddEndpointsApiExplorer();

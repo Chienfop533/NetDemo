@@ -1,8 +1,29 @@
 [
   {
     "ContainingType": "NetDemo.Controller.StudentController",
+    "Method": "GetStudentsAsync",
+    "RelativePath": "student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[NetDemo.Models.StudentDTO, NetDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAllStudents"
+  },
+  {
+    "ContainingType": "NetDemo.Controller.StudentController",
     "Method": "GetStudentById",
-    "RelativePath": "api/Student/{id}",
+    "RelativePath": "student/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -15,7 +36,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "NetDemo.Models.StudentModel",
+        "Type": "NetDemo.Models.StudentDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,8 +49,70 @@
   },
   {
     "ContainingType": "NetDemo.Controller.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "student/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NetDemo.Models.StudentDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NetDemo.Models.StudentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NetDemo.Controller.StudentController",
+    "Method": "UpdateStudent",
+    "RelativePath": "student/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "NetDemo.Models.StudentDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NetDemo.Models.StudentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NetDemo.Controller.StudentController",
     "Method": "DeleteStudent",
-    "RelativePath": "api/Student/{id}",
+    "RelativePath": "student/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -51,26 +134,5 @@
         "StatusCode": 200
       }
     ]
-  },
-  {
-    "ContainingType": "NetDemo.Controller.StudentController",
-    "Method": "GetStudentName",
-    "RelativePath": "api/Student/all",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[NetDemo.Models.StudentModel, NetDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetAllStudents"
   }
 ]

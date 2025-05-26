@@ -7,12 +7,12 @@ namespace NetDemo.Models
     {
         public int Id { get; set; }
         [Required(ErrorMessage = "Student name is required")]
-        public string StudentName { get; set; }
+        public string Name { get; set; }
         [EmailAddress]
         public string Email { get; set; }
         [Required]
         public string Address { get; set; }
         [DateCheck]
-        public DateTime AdmissionDate { get; set; }
+        public DateTime DOB { get; set; }
     }
 }
