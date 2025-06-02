@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using NetDemo.Configurations;
 using NetDemo.Data;
+using NetDemo.Data.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,8 @@ builder.Services.AddControllers();
 
 // Automapper configuration.
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
+
+builder.Services.AddTransient<IStudentRepository, StudentRepository>();
 
 // Configure Swagger/OpenAPI.
 builder.Services.AddEndpointsApiExplorer();

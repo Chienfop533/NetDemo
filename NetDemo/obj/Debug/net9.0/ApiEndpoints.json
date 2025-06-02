@@ -22,6 +22,32 @@
   },
   {
     "ContainingType": "NetDemo.Controller.StudentController",
+    "Method": "CreateStudent",
+    "RelativePath": "student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "NetDemo.Models.StudentDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "NetDemo.Models.StudentDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NetDemo.Controller.StudentController",
     "Method": "GetStudentById",
     "RelativePath": "student/{id}",
     "HttpMethod": "GET",
@@ -51,43 +77,12 @@
     "ContainingType": "NetDemo.Controller.StudentController",
     "Method": "UpdateStudent",
     "RelativePath": "student/{id}",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "NetDemo.Models.StudentDTO",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "NetDemo.Models.StudentDTO",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "NetDemo.Controller.StudentController",
-    "Method": "UpdateStudent",
-    "RelativePath": "student/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
+        "Name": "dto",
         "Type": "NetDemo.Models.StudentDTO",
         "IsRequired": true
       },
@@ -125,7 +120,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Boolean",
+        "Type": "NetDemo.Models.StudentDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using NetDemo.Data;
+using NetDemo.Data.Repository;
 using NetDemo.Models;
 
 namespace NetDemo.Controller
@@ -11,13 +11,13 @@ namespace NetDemo.Controller
     public class StudentController : ControllerBase
     {
         private readonly ILogger<StudentController> _logger;
-        private readonly CollegeDBContext _dbContext;
         private readonly IMapper _mapper;
-        public StudentController(ILogger<StudentController> logger, CollegeDBContext dbContext, IMapper mapper)
+        private readonly IStudentRepository _studentRepository;
+        public StudentController(ILogger<StudentController> logger, IMapper mapper, IStudentRepository studentRepository)
         {
             _logger = logger;
-            _dbContext = dbContext;
             _mapper = mapper;
+            _studentRepository = studentRepository;
         }
 
         [HttpGet]
@@ -25,18 +25,19 @@ namespace NetDemo.Controller
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetStudentsAsync()
         {
             _logger.LogInformation("Get students method started.");
-            var students = await _dbContext.Students.ToListAsync();
+            var students = await _studentRepository.GetAllAsync();
             var studentsDTO = _mapper.Map<List<StudentDTO>>(students);
             return Ok(studentsDTO);
         }
 
         [HttpGet]
         [Route("{id}", Name = "GetStudentById")]
-        public ActionResult<StudentDTO> GetStudentById(int id)
+        public async Task<ActionResult<StudentDTO>> GetStudentById(int id)
         {
             if (id <= 0)
                 return BadRequest();
-            var student = _dbContext.Students.Where(s => s.Id == id).FirstOrDefault();
+
+            var student = await _studentRepository.GetByIdAsync(id);
             if (student == null)
                 return NotFound($"Id {id} not found");
             var studentDTO = _mapper.Map<StudentDTO>(student);
@@ -44,58 +45,45 @@ namespace NetDemo.Controller
         }
 
         [HttpPost]
-        //public ActionResult<StudentDTO> CreateStudent([FromBody] StudentDTO model)
-        //{
-        //    if (model == null)
-        //        return BadRequest();
+        public async Task<ActionResult<StudentDTO>> CreateStudent([FromBody] StudentDTO dto)
+        {
+            if (dto == null)
+                return BadRequest();
 
-        //    // Map StudentDTO to Student
-        //    Student student = new Student()
-        //    {
-        //        Id = _dbContext.Students.Any() ? _dbContext.Students.Max(s => s.Id) + 1 : 1, // Generate new ID
-        //        StudentName = model.StudentName,
-        //        Email = model.Email,
-        //        Address = model.Address,
-        //        DOB = DateTime.Now // Assuming DOB is required, set a default value
-        //    };
+            Student student = _mapper.Map<Student>(dto);
 
-        //    _dbContext.Students.Add(student);
-        //    _dbContext.SaveChanges();
+            var newStudent = await _studentRepository.CreateAsync(student);
 
-        //    // Map back to StudentDTO to return
-        //    model.Id = student.Id;
-        //    return Ok(model);
-        //}
+            return CreatedAtRoute(student, newStudent);
+        }
 
         [HttpPut]
         [Route("{id:int}")]
-        public ActionResult<StudentDTO> UpdateStudent([FromBody] StudentDTO model, int id)
+        public async Task<ActionResult<StudentDTO>> UpdateStudent([FromBody] StudentDTO dto, int id)
         {
-            if (model == null || id < 0)
+            if (dto == null || id < 0)
                 return BadRequest();
 
-            var existingStudent = _dbContext.Students.AsNoTracking().Where(s => s.Id == id).FirstOrDefault();
+            var existingStudent = await _studentRepository.GetByIdAsync(id, true);
+
             if (existingStudent == null)
                 return NotFound($"Id {id} not found");
-            var newStudent = new Student()
-            {
-                Id = existingStudent.Id,
-                StudentName = existingStudent.StudentName,
-                Email = existingStudent.Email,
-                Address = existingStudent.Address,
-                DOB = existingStudent.DOB
-            };
-            _dbContext.Students.Update(newStudent);
-            _dbContext.SaveChanges();
+            var newStudent = _mapper.Map<Student>(dto);
+            await _studentRepository.UpdateAsync(id, newStudent);
             return Ok(newStudent);
         }
 
         [HttpDelete("{id:int}")]
-        public bool DeleteStudent(int id)
+        public async Task<ActionResult<StudentDTO>> DeleteStudent(int id)
         {
-            var student = _dbContext.Students.Where(s => s.Id == id).FirstOrDefault();
-            _dbContext.Students.Remove(student);
-            return true;
+            if (id <= 0)
+                return BadRequest();
+            var student = await _studentRepository.GetByIdAsync(id);
+            if (student == null)
+                return NotFound($"The student not found with id {id}");
+
+            await _studentRepository.DeleteAsync(id);
+            return Ok(student);
         }
 
     }
