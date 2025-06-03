@@ -12,8 +12,8 @@ namespace NetDemo.Controller
     {
         private readonly ILogger<StudentController> _logger;
         private readonly IMapper _mapper;
-        private readonly IStudentRepository _studentRepository;
-        public StudentController(ILogger<StudentController> logger, IMapper mapper, IStudentRepository studentRepository)
+        private readonly ICollegeRepository<Student> _studentRepository;
+        public StudentController(ILogger<StudentController> logger, IMapper mapper, ICollegeRepository<Student> studentRepository)
         {
             _logger = logger;
             _mapper = mapper;
@@ -37,7 +37,7 @@ namespace NetDemo.Controller
             if (id <= 0)
                 return BadRequest();
 
-            var student = await _studentRepository.GetByIdAsync(id);
+            var student = await _studentRepository.GetByIdAsync(student => student.Id == id);
             if (student == null)
                 return NotFound($"Id {id} not found");
             var studentDTO = _mapper.Map<StudentDTO>(student);
@@ -54,7 +54,8 @@ namespace NetDemo.Controller
 
             var newStudent = await _studentRepository.CreateAsync(student);
 
-            return CreatedAtRoute(student, newStudent);
+            var studentDTO = _mapper.Map<StudentDTO>(newStudent);
+            return CreatedAtRoute(student, studentDTO);
         }
 
         [HttpPut]
@@ -64,12 +65,12 @@ namespace NetDemo.Controller
             if (dto == null || id < 0)
                 return BadRequest();
 
-            var existingStudent = await _studentRepository.GetByIdAsync(id, true);
+            var existingStudent = await _studentRepository.GetByIdAsync(student => student.Id == id, true);
 
             if (existingStudent == null)
                 return NotFound($"Id {id} not found");
             var newStudent = _mapper.Map<Student>(dto);
-            await _studentRepository.UpdateAsync(id, newStudent);
+            await _studentRepository.UpdateAsync(newStudent);
             return Ok(newStudent);
         }
 
@@ -78,12 +79,13 @@ namespace NetDemo.Controller
         {
             if (id <= 0)
                 return BadRequest();
-            var student = await _studentRepository.GetByIdAsync(id);
+            var student = await _studentRepository.GetByIdAsync(student => student.Id == id);
             if (student == null)
                 return NotFound($"The student not found with id {id}");
 
-            await _studentRepository.DeleteAsync(id);
-            return Ok(student);
+            var delStudent = _mapper.Map<Student>(student);
+            await _studentRepository.DeleteAsync(delStudent);
+            return Ok(delStudent);
         }
 
     }

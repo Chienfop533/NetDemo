@@ -18,7 +18,8 @@ builder.Services.AddControllers();
 // Automapper configuration.
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
-builder.Services.AddTransient<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped(typeof(ICollegeRepository<>), typeof(CollegeRepository<>));
 
 // Configure Swagger/OpenAPI.
 builder.Services.AddEndpointsApiExplorer();
