@@ -1,12 +1,7 @@
 ﻿namespace NetDemo.Data.Repository
 {
-    public interface IStudentRepository
+    public interface IStudentRepository : ICollegeRepository<Student>
     {
-        Task<List<Student>> GetAllAsync();
-        Task<Student> GetByIdAsync(int id, bool useNoTracking = false);
-
-        Task<Student> CreateAsync(Student student);
-        Task<Student> UpdateAsync(int id, Student student);
-        Task<Student> DeleteAsync(int id);
+        Task<List<Student>> GetStudentsByFeeStatusAsync(int feeStatus);
     }
 }

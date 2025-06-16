@@ -3,40 +3,52 @@
   "WorkspaceRootPath": "D:\\DevSource\\NetCore\\NetDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\icollegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\icollegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250604140246_adddepartmentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250604140246_adddepartmentstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\config\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\config\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\config\\studentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\collegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\icollegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\icollegerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\configurations\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,20 +86,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ICollegeRepository.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\ICollegeRepository.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\ICollegeRepository.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\ICollegeRepository.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Repository\\ICollegeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20250604140246_AddDepartmentsTable.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250604140246_AddDepartmentsTable.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250604140246_AddDepartmentsTable.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250604140246_AddDepartmentsTable.cs",
+              "RelativeToolTip": "NetDemo\\Migrations\\20250604140246_AddDepartmentsTable.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T14:02:29.735Z",
+              "WhenOpened": "2025-06-04T14:02:46.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentConfig.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\StudentConfig.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\StudentConfig.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\StudentConfig.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Config\\StudentConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:52:37.937Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Program.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Program.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Program.cs",
+              "RelativeToolTip": "NetDemo\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T14:01:20.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Department.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Department.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Department.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Department.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:44:07.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollegeDBContext.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\CollegeDBContext.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\CollegeDBContext.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\CollegeDBContext.cs",
+              "RelativeToolTip": "NetDemo\\Data\\CollegeDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:47:27.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Student.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Student.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Student.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:43:36.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DepartmentConfig.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\DepartmentConfig.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\DepartmentConfig.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\DepartmentConfig.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Config\\DepartmentConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T13:45:36.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "NetDemo\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:00:44.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\StudentRepository.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\StudentRepository.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Repository\\StudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:18:47.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\IStudentRepository.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\IStudentRepository.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Repository\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T14:25:57.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "CollegeRepository.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\CollegeRepository.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\CollegeRepository.cs",
@@ -95,102 +216,23 @@
               "RelativeToolTip": "NetDemo\\Data\\Repository\\CollegeRepository.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAgwC4AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T13:29:27.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T13:29:27.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Controllers\\StudentController.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "NetDemo\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAowFAAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "ICollegeRepository.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\ICollegeRepository.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\ICollegeRepository.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\ICollegeRepository.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Repository\\ICollegeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:00:44.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-03T14:02:29.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentRepository.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\StudentRepository.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\StudentRepository.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\StudentRepository.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Repository\\StudentRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwA4AAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:18:47.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Program.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Program.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Program.cs",
-              "RelativeToolTip": "NetDemo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:01:20.317Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CollegeDBContext.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\CollegeDBContext.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\CollegeDBContext.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\CollegeDBContext.cs",
-              "RelativeToolTip": "NetDemo\\Data\\CollegeDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:47:27.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Student.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Student.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Student.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:43:36.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IStudentRepository.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\IStudentRepository.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\IStudentRepository.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\IStudentRepository.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Repository\\IStudentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T14:25:57.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "StudentConfig.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\StudentConfig.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\StudentConfig.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\StudentConfig.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Config\\StudentConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:52:37.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Configurations\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Configurations\\AutoMapperConfig.cs",
@@ -202,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\StudentDTO.cs",
               "RelativeDocumentMoniker": "NetDemo\\Models\\StudentDTO.cs",
@@ -214,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "DateCheckAttribute.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Validations\\DateCheckAttribute.cs",
               "RelativeDocumentMoniker": "NetDemo\\Validations\\DateCheckAttribute.cs",
@@ -226,7 +268,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "NetDemo.csproj",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\NetDemo.csproj",
               "RelativeDocumentMoniker": "NetDemo\\NetDemo.csproj",
@@ -238,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\appsettings.json",
               "RelativeDocumentMoniker": "NetDemo\\appsettings.json",

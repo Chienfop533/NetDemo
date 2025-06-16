@@ -1,7 +1,10 @@
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using NetDemo.Configurations;
 using NetDemo.Data;
 using NetDemo.Data.Repository;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +28,37 @@ builder.Services.AddScoped(typeof(ICollegeRepository<>), typeof(CollegeRepositor
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Cors
+builder.Services.AddCors(option => option.AddPolicy("MyDemoCors", policy =>
+{
+    //Allow only few origin
+    policy.WithOrigins("https://localhost:4200");
+    //Allow all orgigin
+    //policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+}
+));
+
+//JWT Authentication Configuration
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+}
+).AddJwtBearer(options =>
+{
+    //options.RequireHttpsMetadata = false;
+    options.SaveToken = true;
+    options.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateIssuerSigningKey = true,
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII
+        .GetBytes(builder.Configuration.GetValue<string>("JWTSecret")))
+    };
+}
+);
+
 var app = builder.Build();
 
 //Configure the HTTP request pipeline.
@@ -35,7 +69,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("MyDemoCors");
 app.UseAuthorization();
 
 app.MapControllers();

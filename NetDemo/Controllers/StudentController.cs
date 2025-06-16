@@ -8,12 +8,13 @@ namespace NetDemo.Controller
 {
     [Route("student")]
     [ApiController]
+    //[Authorize(Roles = "Superadmin, Amdin")]
     public class StudentController : ControllerBase
     {
         private readonly ILogger<StudentController> _logger;
         private readonly IMapper _mapper;
-        private readonly ICollegeRepository<Student> _studentRepository;
-        public StudentController(ILogger<StudentController> logger, IMapper mapper, ICollegeRepository<Student> studentRepository)
+        private readonly IStudentRepository _studentRepository;
+        public StudentController(ILogger<StudentController> logger, IMapper mapper, IStudentRepository studentRepository)
         {
             _logger = logger;
             _mapper = mapper;
@@ -22,6 +23,7 @@ namespace NetDemo.Controller
 
         [HttpGet]
         [Route("", Name = "GetAllStudents")]
+        //[AllowAnonymous]
         public async Task<ActionResult<IEnumerable<StudentDTO>>> GetStudentsAsync()
         {
             _logger.LogInformation("Get students method started.");
