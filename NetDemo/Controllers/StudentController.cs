@@ -14,11 +14,13 @@ namespace NetDemo.Controller
         private readonly ILogger<StudentController> _logger;
         private readonly IMapper _mapper;
         private readonly IStudentRepository _studentRepository;
+        private APIResponse _apiRespose;
         public StudentController(ILogger<StudentController> logger, IMapper mapper, IStudentRepository studentRepository)
         {
             _logger = logger;
             _mapper = mapper;
             _studentRepository = studentRepository;
+            _apiRespose = new();
         }
 
         [HttpGet]
