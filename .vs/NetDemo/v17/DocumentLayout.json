@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\DevSource\\NetCore\\NetDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617150559_AddingFkUsers_UserTypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617150559_AddingFkUsers_UserTypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\models\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\models\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,24 +35,12 @@
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617150227_AddUserTypeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617150227_AddUserTypeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\collegedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\repository\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617145245_UserRoleMappingRelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617145245_UserRoleMappingRelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -63,28 +55,12 @@
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\config\\roleprivilegeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617143210_CreatingFKRolePrivilegeRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617143210_CreatingFKRolePrivilegeRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\roleprivilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\roleprivilege.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617142746_AddRolePrivilegeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617142746_AddRolePrivilegeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\roleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\data\\config\\roleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617142213_AddRoleTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617142213_AddRoleTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617140341_AddingUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NetDemo\\Migrations\\20250617140341_AddingUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\data\\config\\departmentconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -145,6 +121,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\netdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\netdemo.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617150559_addingfkusers_usertypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617150559_addingfkusers_usertypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617150227_addusertypetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617150227_addusertypetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617145245_userrolemappingrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617145245_userrolemappingrelation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617143210_creatingfkroleprivilegerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617143210_creatingfkroleprivilegerole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617142746_addroleprivilegetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617142746_addroleprivilegetable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617142213_addroletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617142213_addroletable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|d:\\devsource\\netcore\\netdemo\\netdemo\\migrations\\20250617140341_addingusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B27C4D8-024F-400B-871B-AFDA6A1ED744}|NetDemo\\NetDemo.csproj|solutionrelative:netdemo\\migrations\\20250617140341_addingusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -163,6 +167,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoleDTO.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\RoleDTO.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Models\\RoleDTO.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\RoleDTO.cs",
+              "RelativeToolTip": "NetDemo\\Models\\RoleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T15:07:02.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "20250617150559_AddingFkUsers_UserTypes.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617150559_AddingFkUsers_UserTypes.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617150559_AddingFkUsers_UserTypes.cs",
@@ -170,12 +187,23 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617150559_AddingFkUsers_UserTypes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T15:05:59.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T15:05:59.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "NetDemo\\Data\\Role.cs",
+              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Role.cs",
+              "RelativeToolTip": "NetDemo\\Data\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T14:18:35.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UserTypeConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\UserTypeConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\UserTypeConfig.cs",
@@ -183,12 +211,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\UserTypeConfig.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:59:59.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:59:59.791Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\UserConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\UserConfig.cs",
@@ -196,12 +223,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\UserConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:59:29.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:59:29.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserRoleMappingConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\UserRoleMappingConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\UserRoleMappingConfig.cs",
@@ -209,12 +235,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\UserRoleMappingConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:43:24.151Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:43:24.151Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "StudentConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\StudentConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\StudentConfig.cs",
@@ -222,12 +247,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\StudentConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:52:37.937Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T14:52:37.937Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserType.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\UserType.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\UserType.cs",
@@ -235,12 +259,11 @@
               "RelativeToolTip": "NetDemo\\Data\\UserType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:58:58.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:58:58.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\User.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\User.cs",
@@ -248,12 +271,11 @@
               "RelativeToolTip": "NetDemo\\Data\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:56:07.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:56:07.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 31,
               "Title": "20250617150227_AddUserTypeTable.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617150227_AddUserTypeTable.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617150227_AddUserTypeTable.cs",
@@ -261,8 +283,7 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617150227_AddUserTypeTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T15:02:27.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T15:02:27.932Z"
             },
             {
               "$type": "Document",
@@ -274,8 +295,7 @@
               "RelativeToolTip": "NetDemo\\Data\\Repository\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T13:18:47.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T13:18:47.602Z"
             },
             {
               "$type": "Document",
@@ -287,12 +307,11 @@
               "RelativeToolTip": "NetDemo\\Data\\CollegeDBContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:47:27.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T13:47:27.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 32,
               "Title": "20250617145245_UserRoleMappingRelation.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617145245_UserRoleMappingRelation.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617145245_UserRoleMappingRelation.cs",
@@ -300,25 +319,11 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617145245_UserRoleMappingRelation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:52:45.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:52:45.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Role.cs",
-              "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Role.cs",
-              "RelativeDocumentMoniker": "NetDemo\\Data\\Role.cs",
-              "ToolTip": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Role.cs",
-              "RelativeToolTip": "NetDemo\\Data\\Role.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:18:35.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Student.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Student.cs",
@@ -326,12 +331,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:43:36.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T13:43:36.809Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "UserRoleMapping.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\UserRoleMapping.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\UserRoleMapping.cs",
@@ -339,12 +343,11 @@
               "RelativeToolTip": "NetDemo\\Data\\UserRoleMapping.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:42:03.751Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:42:03.751Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 12,
               "Title": "RolePrivilegeConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\RolePrivilegeConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\RolePrivilegeConfig.cs",
@@ -352,12 +355,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\RolePrivilegeConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:26:07.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:26:07.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 33,
               "Title": "20250617143210_CreatingFKRolePrivilegeRole.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617143210_CreatingFKRolePrivilegeRole.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617143210_CreatingFKRolePrivilegeRole.cs",
@@ -365,12 +367,11 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617143210_CreatingFKRolePrivilegeRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:32:10.696Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:32:10.696Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 13,
               "Title": "RolePrivilege.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\RolePrivilege.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\RolePrivilege.cs",
@@ -378,12 +379,11 @@
               "RelativeToolTip": "NetDemo\\Data\\RolePrivilege.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:23:19.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:23:19.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 34,
               "Title": "20250617142746_AddRolePrivilegeTable.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617142746_AddRolePrivilegeTable.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617142746_AddRolePrivilegeTable.cs",
@@ -391,12 +391,11 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617142746_AddRolePrivilegeTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:27:46.789Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:27:46.789Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 14,
               "Title": "RoleConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\RoleConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\RoleConfig.cs",
@@ -404,12 +403,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\RoleConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:20:09.963Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:20:09.963Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 35,
               "Title": "20250617142213_AddRoleTable.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617142213_AddRoleTable.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617142213_AddRoleTable.cs",
@@ -417,12 +415,11 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617142213_AddRoleTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:22:13.821Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:22:13.821Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 36,
               "Title": "20250617140341_AddingUserTable.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Migrations\\20250617140341_AddingUserTable.cs",
               "RelativeDocumentMoniker": "NetDemo\\Migrations\\20250617140341_AddingUserTable.cs",
@@ -430,12 +427,11 @@
               "RelativeToolTip": "NetDemo\\Migrations\\20250617140341_AddingUserTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T14:03:41.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T14:03:41.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 15,
               "Title": "DepartmentConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Config\\DepartmentConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Config\\DepartmentConfig.cs",
@@ -443,12 +439,11 @@
               "RelativeToolTip": "NetDemo\\Data\\Config\\DepartmentConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T13:45:36.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-04T13:45:36.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 17,
               "Title": "APIResponse.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\APIResponse.cs",
               "RelativeDocumentMoniker": "NetDemo\\Models\\APIResponse.cs",
@@ -456,12 +451,11 @@
               "RelativeToolTip": "NetDemo\\Models\\APIResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T13:27:46.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T13:27:46.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "LoginController.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "NetDemo\\Controllers\\LoginController.cs",
@@ -473,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "StudentController.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "NetDemo\\Controllers\\StudentController.cs",
@@ -481,12 +475,11 @@
               "RelativeToolTip": "NetDemo\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:00:44.942Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T14:00:44.942Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Program.cs",
               "RelativeDocumentMoniker": "NetDemo\\Program.cs",
@@ -494,12 +487,11 @@
               "RelativeToolTip": "NetDemo\\Program.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAkwC4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T14:01:20.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T14:01:20.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 20,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\LoginDTO.cs",
               "RelativeDocumentMoniker": "NetDemo\\Models\\LoginDTO.cs",
@@ -511,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 21,
               "Title": "StudentDTO.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Models\\StudentDTO.cs",
               "RelativeDocumentMoniker": "NetDemo\\Models\\StudentDTO.cs",
@@ -523,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 22,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\appsettings.json",
               "RelativeDocumentMoniker": "NetDemo\\appsettings.json",
@@ -535,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 23,
               "Title": "Department.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Department.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Department.cs",
@@ -547,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 24,
               "Title": "IStudentRepository.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\IStudentRepository.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\IStudentRepository.cs",
@@ -559,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 25,
               "Title": "CollegeRepository.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\CollegeRepository.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\CollegeRepository.cs",
@@ -571,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 26,
               "Title": "ICollegeRepository.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Data\\Repository\\ICollegeRepository.cs",
               "RelativeDocumentMoniker": "NetDemo\\Data\\Repository\\ICollegeRepository.cs",
@@ -583,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 27,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Configurations\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "NetDemo\\Configurations\\AutoMapperConfig.cs",
@@ -595,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 28,
               "Title": "DateCheckAttribute.cs",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\Validations\\DateCheckAttribute.cs",
               "RelativeDocumentMoniker": "NetDemo\\Validations\\DateCheckAttribute.cs",
@@ -607,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 29,
               "Title": "NetDemo.csproj",
               "DocumentMoniker": "D:\\DevSource\\NetCore\\NetDemo\\NetDemo\\NetDemo.csproj",
               "RelativeDocumentMoniker": "NetDemo\\NetDemo.csproj",

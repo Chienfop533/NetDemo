@@ -6,7 +6,7 @@ using NetDemo.Models;
 
 namespace NetDemo.Controller
 {
-    [Route("student")]
+    [Route("students")]
     [ApiController]
     //[Authorize(Roles = "Superadmin, Amdin")]
     public class StudentController : ControllerBase
